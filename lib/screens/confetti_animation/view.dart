@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 
@@ -56,10 +54,7 @@ class _ConfettiScreenState extends State<ConfettiScreen> {
           emissionFrequency: .2,
           // push number of cards per one time
           numberOfParticles: 100,
-          colors: [
-            Colors.red,
-            Colors.white
-          ],
+          colors: [Colors.red, Colors.white],
           // speed to go down
           gravity: 1,
           // createParticlePath: (size) {

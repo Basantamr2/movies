@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:movies/screens/movies/view.dart';
 import 'screens/aspect_ratio/view.dart';
  import 'screens/confetti_animation/view.dart';
  import 'screens/flip_paper/view.dart';
@@ -23,11 +24,12 @@ class MyApp extends StatelessWidget {
         ),
         home: PageView(
           children: [
-            MoviesScreen(),
-            AspectRatioScreen(),
-            ConfettiScreen(),
-            FlipPaperScreen(),
-            NeonButtonScreen(),
+            MoviesScreen()
+            // Movies1Screen(),
+            // AspectRatioScreen(),
+            // ConfettiScreen(),
+            // FlipPaperScreen(),
+            // NeonButtonScreen(),
           ],
         ),
       ),

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:movies/screens/movie_db/controller.dart';
-class MoviesScreen extends StatefulWidget {
-  const MoviesScreen({Key? key}) : super(key: key);
+class Movies1Screen extends StatefulWidget {
+   Movies1Screen({Key? key}) : super(key: key);
 
   @override
-  State<MoviesScreen> createState() {
-    return _MoviesScreenState();
+  State<Movies1Screen> createState() {
+    return _Movies1ScreenState();
   }
 }
 
-class _MoviesScreenState extends State<MoviesScreen> {
+class _Movies1ScreenState extends State<Movies1Screen> {
   final controller = MovieDBController();
 
   @override
